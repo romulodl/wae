@@ -1,0 +1,24 @@
+{
+  "name": "romulodl/wae",
+  "description": "calculate Waddah Attar Explosion",
+  "license": "Apache-2.0",
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "authors": [
+    {
+      "name": "Romulo De Lazzari",
+      "email": "romulodelazzari@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Romulodl\\": "src/"
+    }
+  },
+  "require": {
+    "romulodl/macd": "^2.0",
+    "romulodl/bollinger-bands": "^1.0",
+    "romulodl/atr": "^1.0"
+  }
+}
