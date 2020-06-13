@@ -2,7 +2,7 @@
 
 Calculate the Waddah Attar Explosion values (MACD, BB and ATR based)
 
-![wae](https://github.com/romulodl/wae/workflows/Wae/badge.svg)
+![Waddah Attar Explosion](https://github.com/romulodl/wae/workflows/Waddah%20Attar%20Explosion/badge.svg)
 
 ## Instalation
 
