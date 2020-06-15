@@ -15,15 +15,15 @@ or add `romulodl/wae` to your `composer.json`. Please check the latest version i
 ## Usage
 
 ```php
-$atr = new Romulodl\Wae();
-$atr->calculate(array $hlc_values); // [high, low, close]
+$wae = new Romulodl\Wae();
+$wae->calculate(array $hlc_values); // [high, low, close]
 //returns array [trend value, explosion line value, dead zone value]
 ```
 
 Example of use:
 ```php
-$atr = new Romulodl\Wae();
-$atr->calculate([
+$wae = new Romulodl\Wae();
+$wae->calculate([
   [9950.00,9250.66,9786.80],
   [9843.50,9100.00,9310.73],
   [9585.00,9210.03,9374.99],
